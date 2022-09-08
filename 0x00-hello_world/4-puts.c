@@ -1,9 +1,6 @@
 #include <stdio.h>
-/**
- *main function- main body of the program
- */
-int main(void)
+int main(void)/* the main function */
 {
-    puts("\"Programming is like building a multilingual puzzle");
-    return (0);
+puts("\"Programming is like building a multilingual puzzle");
+ return (0);/* the functipn returns zero */
 }
