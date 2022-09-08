@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main function- this is the function main which encompasses allvthe activity of the c program
+ *main function- main body of the program
  */
 int main(void)
 {
