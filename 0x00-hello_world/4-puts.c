@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- *main - the program starts and ends with the main
- *Return : the main function returns zero when success
+ * main - the program starts and ends with the main
+ * Return: the main function returns zero when success
  */
 int main(void)
 {
