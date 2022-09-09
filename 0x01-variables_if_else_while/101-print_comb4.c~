@@ -1,0 +1,10 @@
+#include <stdio.h>
+/**
+ * main - main function
+ * Return: return 0 for success
+ */
+int main(void)
+{
+	int i, j, k;
+
+	for (i = 48
