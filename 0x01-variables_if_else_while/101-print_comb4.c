@@ -11,7 +11,7 @@ int main(void)
 	{
 		for (j = 49; j < 58; j++)
 		{
-			for (k = 50; k < 50; k++)
+			for (k = 50; k < 58; k++)
 			{
 				if (k > j && j > i)
 				{
@@ -20,8 +20,8 @@ int main(void)
 					putchar(k);
 					if (i != 55 || j != 56)
 					{
-					putchar(',');
-					putchar(' ');
+						putchar(',');
+						putchar(' ');
 					}
 				}
 			}
