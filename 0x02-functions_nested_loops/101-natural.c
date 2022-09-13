@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 /**
  * main - entry
@@ -17,4 +18,5 @@ int main(void)
 	}
 	printf("%d", sum);
 	putchar('\n');
+	return (0);
 }
