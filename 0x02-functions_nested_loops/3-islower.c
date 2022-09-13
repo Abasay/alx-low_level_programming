@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _islower: print if lowercase
+ * _islower - print if lowercase
  * @c : parameter of tge function
  * Return: return 0
  */
