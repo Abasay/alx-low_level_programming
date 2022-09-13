@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main - check code
- *
+ * _isalpha - funtion lrototypr
+ * @c : function parameter
  * Return: return per instruction
  */
 

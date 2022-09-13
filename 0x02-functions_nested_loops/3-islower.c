@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main - check lower case
  * _islower: print if lowercase
+ * @c : parameter of tge function
  * Return: return 0
  */
 

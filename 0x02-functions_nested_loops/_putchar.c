@@ -1,8 +1,11 @@
-#include "main.h"
+#include <unistd.h>
 /**
- * main - entry point
+ * _putchar - putchar fnt
+ * @p : parameter
  * Return: return 0 for success
  */
-int _putchar(char p);
 
-int main(void);
+int _putchar(char i)
+{
+	return (write(1, &i, 1));
+}
