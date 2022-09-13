@@ -3,6 +3,8 @@
  * main - the function starts and end with main
  * Return: return 0 when success
  */
+int _putchar(char p);
+
 int main(void)
 {
 	_putchar('_');
