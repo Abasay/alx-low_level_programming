@@ -10,21 +10,21 @@ int print_sign(int n)
 
 	if (n > 0)
 	{
-		return_no = 1;
+		eturn_no = 1;
 
 		_putchar('+');
 	}
 	else if (n == 0)
 	{
-		return_no = 0;
+		eturn_no = 0;
 
 		_putchar('0');
 	}
 	else if (n < 0)
 	{
-		return_no = -1;
+		eturn_no = -1;
 
 		_putchar('-');
 	}
-	return (return_no);
+	return (eturn_no);
 }
