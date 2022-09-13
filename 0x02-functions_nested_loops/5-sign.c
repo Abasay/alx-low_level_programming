@@ -6,7 +6,7 @@
  */
 int print_sign(int n)
 {
-	int return_no;
+	int eturn_no;
 
 	if (n > 0)
 	{
