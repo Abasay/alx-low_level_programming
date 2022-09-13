@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - check lower case
- *
+ * _islower: print if lowercase
  * Return: return 0
  */
 
