@@ -1,0 +1,22 @@
+#include "main.h"
+
+/**
+ * print_rev - printing in reverse
+ * @s: parameter s
+ * Return: return void
+ */
+
+void print_rev(char *s)
+{
+	int i, j;
+
+	for (i = 0; s[i] != '\0'; i++)
+	{
+		s[i];
+	}
+	for (j = i; i >= 0; j--)
+	{
+		_putchar(s[j]);
+	}
+	_putchar('\n');
+}
