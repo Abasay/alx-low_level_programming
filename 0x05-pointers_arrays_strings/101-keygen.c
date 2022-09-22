@@ -9,20 +9,16 @@
 
 int main(void)
 {
-	int i, j;
-	time_t t;
+	int myrand, count, total;
 
-	srand((unsigned int) time(&t));
-	for (i = 0; i < 2772; i += j)
+	srand(time(NULL));
+	for (count = 0; total = 2772; total > 122; count++)
 	{
-		j = rand () % 128;
-		if ((i + j) > 2772)
-		{
-			break;
-		}
-		printf("%c", j);
+		myrand = (rand() % 125) + 1;
+		printf("%c", myrand);
+		total -= myrand;
 	}
-	printf("%c\n", (2772 - j));
+	printf("%c", total);
 
 	return (0);
 }
