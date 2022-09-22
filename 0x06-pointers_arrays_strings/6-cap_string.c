@@ -38,5 +38,6 @@ char *cap_string(char *str)
 				break;
 			}
 	}
+	str[j] = '\0';
 	return (str);
 }
