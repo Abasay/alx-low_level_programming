@@ -17,7 +17,7 @@ char *leet(char *s)
 	}
 	for (j = 0; j <= i; j++)
 	{
-		for (k = 0; k < 10; k += 2)
+		for (k = 0; k < 10; k+=2)
 		{
 			if (s[j] == lets[k] || s[j] == lets[k + 1])
 			{
