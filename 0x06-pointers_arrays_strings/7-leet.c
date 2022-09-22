@@ -9,8 +9,8 @@ char *leet(char *s)
 {
 	int i, j, k;
 	int temp;
-	char lets[10] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
-	int nums[5] = {4, 3, 0, 7, 1};
+	char lets[] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
+	int nums[] = {4, 3, 0, 7, 1};
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
