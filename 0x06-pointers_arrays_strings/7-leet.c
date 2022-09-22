@@ -21,13 +21,10 @@ char *leet(char *s)
 		{
 			if (s[j] == lets[k] || s[j] == lets[k + 1])
 			{
-				temp = nums[k / 2];
-				s[j] = temp;
+				s[j] = nums[k / 2];
 				break;
 			}
 		}
-		temp = s[j];
-		s[j] = temp;
 	}
 	s[j] = '\0';
 	return (s);
