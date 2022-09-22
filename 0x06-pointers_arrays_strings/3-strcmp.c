@@ -14,5 +14,5 @@ int _strcmp(char *s1, char *s2)
 	for (i = s1, j = s2; *i != '\0' && *j != '\0' && *i == *j; i++, j++)
 	{
 	}
-	return (i - j);
+	return (*i - *j);
 }
