@@ -9,19 +9,20 @@ char *leet(char *s)
 {
 	int i, j, k;
 	int temp;
-	char lets[] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
-	int nums[] = {4, 3, 0, 7, 1};
+	int lower[] = {97, 101, 111, 116, 108};
+	int upper[] = {65, 69, 79, 84, 76};
+	int nums[] = {52, 51, 48, 55, 49};
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
 	}
 	for (j = 0; j <= i; j++)
 	{
-		for (k = 0; k < 10; k+=2)
+		for (k = 0; k < 5; k++)
 		{
-			if (s[j] == lets[k] || s[j] == lets[k + 1])
+			if (s[j] == lower[k] || s[j] == upper[k])
 			{
-				s[j] = nums[k / 2];
+				s[j] = nums[k];
 				break;
 			}
 		}
