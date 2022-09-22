@@ -36,4 +36,5 @@ char *cap_string(char *str)
 		str[j] = temp;
 	}
 	str[j] = '\0';
+	return (str);
 }
