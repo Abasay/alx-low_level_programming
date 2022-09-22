@@ -8,7 +8,6 @@
 char *leet(char *s)
 {
 	int i, j, k;
-	int temp;
 	int lower[] = {97, 101, 111, 116, 108};
 	int upper[] = {65, 69, 79, 84, 76};
 	int nums[] = {52, 51, 48, 55, 49};
