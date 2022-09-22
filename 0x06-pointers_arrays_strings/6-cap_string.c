@@ -24,6 +24,7 @@ char *cap_string(char *str)
 					str[j] = str[j] - 32;
 				}
 				j = j - 1;
+				break;
 			}
 		for (l = 3; l < 13; l++)
 			if (str[j] == *(seps + k))
