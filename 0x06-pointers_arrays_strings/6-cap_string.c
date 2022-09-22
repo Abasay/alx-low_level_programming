@@ -8,12 +8,11 @@
 
 char *cap_string(char *str)
 {
-	int i, j, k, l;
+	int j, k, l;
 	char temp;
-	int seps[13] = {32, 9, 10, 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
+	int seps[] = {32, 9, 10, 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
 
-	for (i = 0; str[i] != '\0'; i++)
-	for (j = 0; j <= i; j++)
+	for (j = 0; str[i] != '\0'; j++)
 	{
 		if (str[0] >= 97 || str[0] <= 122)
 			str[0] = str[0] - 32;
@@ -32,9 +31,6 @@ char *cap_string(char *str)
 				j = j - 2;
 				break;
 			}
-		temp = str[j];
-		str[j] = temp;
 	}
-	str[j] = '\0';
 	return (str);
 }
