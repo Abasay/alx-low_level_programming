@@ -25,6 +25,6 @@ void print_number(int n)
 		k /= 10;
 	for (; i >= 1; i /= 10)
 	{
-		_putchar(((m / count) % 10) + 48);
+		_putchar(((j / i) % 10) + 48);
 	}
 }
