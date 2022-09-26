@@ -26,7 +26,7 @@ char *cap_string(char *str)
 				break;
 			}
 		for (l = 0; l < 10; l++)
-			if (str[j] == *(seps1 + k))
+			if (str[j] == *(seps1 + l))
 			{
 				j = j + 2;
 				if (str[j] >= 97 && str[j] <= 122)
