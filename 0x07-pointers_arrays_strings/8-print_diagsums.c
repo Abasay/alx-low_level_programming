@@ -11,8 +11,9 @@
 void print_diagsums(int *a, int size)
 {
 	int j;
-	unsigned sum1, sum2;
+	unsigned int sum1, sum2;
 
+	sum1 = sum2 = 0;
 	for (j = 0; j < size; j++)
 	{
 		sum1 = a[(size * j) + j];
