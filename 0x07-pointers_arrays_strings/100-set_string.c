@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * set_atring - setting to pointer
+ * set_string - setting to pointer
  * @s : double pointer
  * @to: pointer
  * Return: void
