@@ -6,7 +6,7 @@ int _strlen_recursion(char *s);
 /**
  * is_palindrome - palinfrome
  * @s : string s
- * Return : return int
+ * Return: return int
  */
 
 int is_palindrome(char *s)
@@ -34,7 +34,7 @@ int _strlen_recursion(char *s)
  * @s : string s
  * @i: num i
  * @len: int len
- * Return : int
+ * Return: int
  */
 
 int check_pal(char *s, int i, int len)
