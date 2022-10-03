@@ -1,13 +1,7 @@
 #include "main.h"
 
 /**
- * _strdup - create memory and copy strings
- * @str: string to copy
- * Return: return a pointer to the duplicated string
- */
-
-/**
- * _strlen -calc str length
+ * _strlen - calc str length
  * @s: string
  * Return: integer
  */
@@ -30,14 +24,21 @@ int _strlen(char *s)
  * Return: string
  */
 
-char _strcpy(char *st1, char *st2)
+char *_strcpy(char *st1, char *st2)
 {
 	int j;
+
 	for (j = 0; *st2; j++)
 		*(st1 + j) = *(st2 + j);
 	st1 = '\0';
 	return (*st1);
 }
+
+/**
+ * _strdup - create memory and copy strings
+ * @str: string to copy
+ * Return: return a pointer to the duplicated str
+ */
 
 char *_strdup(char *str)
 {
@@ -48,7 +49,7 @@ char *_strdup(char *str)
 	if (size == 0)
 		return (NULL);
 
-	st3 =(char *) malloc(sizeof(str) * size);
+	st3 = (char *) malloc(sizeof(str) * size);
 	if (st3 == 0)
 		return (NULL);
 	_strcpy(st3, str);
