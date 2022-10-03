@@ -30,7 +30,7 @@ char *_strcpy(char *st1, char *st2)
 
 	for (j = 0; *st2; j++)
 		*(st1 + j) = *(st2 + j);
-	st1 = '\0';
+	st1[j] = '\0';
 	return (st1);
 }
 
@@ -45,6 +45,8 @@ char *_strdup(char *str)
 	unsigned int size;
 	char *st3;
 
+	if (str == 0)
+		return (NULL);
 	size = _strlen(str) + 1;
 	if (size == 0)
 		return (NULL);
