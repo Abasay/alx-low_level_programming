@@ -43,7 +43,7 @@ char *_strcat(char *st1, char *st2)
 
 char *str_concat(char *s1, char *s2)
 {
-	unsigned int m, size;
+	unsigned int size;
 	char *res;
 
 	if (s1 == 0 || s2 == 0)
