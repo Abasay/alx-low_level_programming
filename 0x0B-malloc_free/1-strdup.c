@@ -31,7 +31,7 @@ char *_strcpy(char *st1, char *st2)
 	for (j = 0; *st2; j++)
 		*(st1 + j) = *(st2 + j);
 	st1 = '\0';
-	return (*st1);
+	return (st1);
 }
 
 /**
