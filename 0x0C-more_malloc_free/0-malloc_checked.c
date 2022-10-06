@@ -1,0 +1,20 @@
+#include "main.h"
+#include <stdlib.h>
+
+/**
+ * malloc_checked - malloc in work
+ * @b: int b
+ * Return: void
+ */
+
+void *malloc_checked(unsigned int b)
+{
+	int *size;
+
+	if (b == 0)
+		return (98);
+	size = malloc(b * sizeof *unsigned int);
+	if (size == 0)
+		return (98);
+	free(size);
+}
