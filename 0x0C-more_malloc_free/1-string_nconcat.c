@@ -28,7 +28,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *res;
 	unsigned int size;
-	int m, c, j, k, a;
+	unsigned int m, c, j, k, a;
 
 	c = 0;
 
