@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
 
 /**
  * malloc_checked - malloc in work
@@ -11,8 +10,10 @@ void *malloc_checked(unsigned int b)
 {
 	int *size;
 
-	size = malloc(b);
-	if (size == NULL)
-		exit (98);
-	return (98);
+	if (b == 0)
+		return (98);
+	size = malloc(b * sizeof *unsigned int);
+	if (size == 0)
+		return (98);
+	free(size);
 }
