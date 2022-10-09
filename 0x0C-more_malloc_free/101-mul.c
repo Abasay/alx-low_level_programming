@@ -17,7 +17,7 @@ int _atoi_digit(char x)
 }
 
 /**
- * _isNuumber - define if a string is number
+ * _isNumber - define if a string is number
  * @argv: arg vector
  * Return: success (0)
  */
