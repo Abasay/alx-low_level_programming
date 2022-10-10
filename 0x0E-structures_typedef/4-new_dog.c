@@ -37,7 +37,7 @@ char _strcpy(char *str1, char *str2)
 
 	for (k = 0; k < j; k++)
 		*(str1 + k) = *(str2 + k);
-	*(str1 + k) = '\0';
+	str1[k] = '\0';
 
 	return (str1);
 }
