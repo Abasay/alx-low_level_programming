@@ -4,6 +4,7 @@
 
 /**
  * print_dog - print dog info
+ * @d: dog info
  * Return: void
  */
 
