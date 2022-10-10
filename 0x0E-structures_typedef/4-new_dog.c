@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "dog.h"
 #include <stdlib.h>
 
@@ -29,7 +30,7 @@ char _strcpy(char *str1, char *str2)
 {
 	int j, k;
 
-	while (str[j] != '\0')
+	while (str2[j] != '\0')
 	{
 		j++;
 	}
