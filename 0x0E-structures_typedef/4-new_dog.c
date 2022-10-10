@@ -26,9 +26,11 @@ int _strlen(char *s)
  * Return: char
  */
 
-char _strcpy(char *str1, char *str2)
+char *_strcpy(char *str1, char *str2)
 {
 	int j, k;
+
+	j = 0;
 
 	while (str2[j] != '\0')
 	{
