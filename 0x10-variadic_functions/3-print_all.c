@@ -8,7 +8,7 @@
 void print_all(const char * const format, ...)
 {
 	va_list valist;
-	unsigned int i = 0, k = 0; j;
+	unsigned int i = 0, k = 0, j;
 	char *str;
 	const char t_arg[] = "cifs";
 
@@ -18,7 +18,7 @@ void print_all(const char * const format, ...)
 		j = 0;
 		while (t_arg[j])
 		{
-			if ((format(i) == t_arg[j]) && k)
+			if (format[i] == t_arg[j] && k)
 			{
 				printf(", ");
 				break;
@@ -38,7 +38,7 @@ void print_all(const char * const format, ...)
 			break;
 		case 's':
 			str = va_arg(valist, char *);
-			if (!str);
+			if (!str)
 			{
 				printf("(nil)");
 				break;
