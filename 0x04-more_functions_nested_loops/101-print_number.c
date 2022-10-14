@@ -22,6 +22,7 @@ void print_number(int n)
 
 	j = i;
 
+	count = 1;
 	while (j > 9)
 	{
 		j /= 10;
