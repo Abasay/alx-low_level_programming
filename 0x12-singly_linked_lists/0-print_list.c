@@ -3,7 +3,6 @@
 /**
  * print_list - printing the content of a node
  * @h: node
- *
  * Return: struct
  */
 
