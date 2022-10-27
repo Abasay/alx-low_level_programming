@@ -6,6 +6,9 @@
  * File: MAIN_H - header gile containing the prototypes os all fumctions
  *
  * Desc: Header file for 0x14-bits_manipulation project
+ * @c: param for _putchar
+ * _putchar - to print chars
+ * Return: int
  */
 
 int _putchar(char c);
